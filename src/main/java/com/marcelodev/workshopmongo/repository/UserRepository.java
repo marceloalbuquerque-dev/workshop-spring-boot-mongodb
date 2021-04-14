@@ -8,4 +8,6 @@ import com.marcelodev.workshopmongo.domain.User;
 @Repository
 public interface UserRepository extends MongoRepository<User, String>{
 
+	//void delete(String id);
+
 }
